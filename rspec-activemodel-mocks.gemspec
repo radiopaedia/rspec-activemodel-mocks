@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency(%q<activesupport>, [">= 3.0"])
   s.add_runtime_dependency(%q<activemodel>,   [">= 3.0"])
-  s.add_runtime_dependency(%q<rspec-mocks>,   [">= 2.99", "< 4.0"])
+  s.add_runtime_dependency('rspec-mocks')
 
   if RUBY_VERSION.to_f < 1.9 || RUBY_VERSION == '1.9.2'
     s.add_development_dependency "rake",     "~> 10.0.0"
